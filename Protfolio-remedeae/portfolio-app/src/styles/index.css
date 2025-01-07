@@ -54,3 +54,144 @@ body, html {
   height: 100%;
   scroll-behavior: smooth;
 }
+
+* {
+  font-family: "Roboto", serif;
+}
+
+/* body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ */
+nav {
+  position: absolute;
+}
+
+.home__banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  min-height: 800px;
+  background-image: url(../assets/redux-of-the-inifite.jpg);
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  z-index: -1;
+}
+.home__banner div {
+  background-color: rgba(51, 51, 51, 0.8039215686);
+  padding: 2rem;
+}
+.home__banner h1 {
+  font-weight: 600;
+  font-size: 4rem;
+  padding-bottom: 12px;
+}
+.home__banner h3 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.home__main {
+  background-color: #ffffff;
+  margin: auto;
+  width: 90vw;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1137254902) 0 16px 24px 2px;
+          box-shadow: rgba(0, 0, 0, 0.1137254902) 0 16px 24px 2px;
+  margin-top: -8%;
+  text-align: center;
+}
+
+.home__about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3%;
+}
+.home__about h4 {
+  max-width: 730px;
+  width: 100%;
+  color: #999999;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 300;
+  padding: 3% 0;
+}
+
+.home__about-traits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1140px;
+  width: 100%;
+}
+.home__about-traits div {
+  max-width: 340px;
+}
+.home__about-traits i {
+  font-size: 2rem;
+  padding: 2%;
+}
+.home__about-traits h3 {
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
+}
+.home__about-traits p {
+  color: #999999;
+  padding: 1%;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: 300;
+}
+.home__about-traits button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 9px;
+  background-color: #999999;
+  margin: 2%;
+}
+.home__about-traits button a {
+  font-family: "Roboto Slab", serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.fa-heart {
+  color: #3e7828;
+}
+
+.fa-paintbrush {
+  color: #902727;
+}
+
+.fa-people-group {
+  color: #372884;
+}
