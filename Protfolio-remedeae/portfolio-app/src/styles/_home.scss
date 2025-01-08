@@ -1,3 +1,5 @@
+@import 'home-about';
+@import 'home-skills';
 
 .home__banner {
     display: flex;
@@ -16,16 +18,17 @@
         background-color: #333333cd;
         padding: 2rem;
     }
-
+    & * {
+        color: $color-light;
+    }
     & h1 {
+        font-family: $font-main;
         font-weight: 600;
         font-size: 4rem;
         padding-bottom: 12px;
     }
 
     & h3 {
-        font-family: $font-accent;
-        font-weight: 700;
         font-size: 2rem;
     }
 }
@@ -38,73 +41,5 @@
     box-shadow: #0000001d 0 16px 24px 2px;
     margin-top: -8%;
     text-align: center;
-}
-
-.home__about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3%;
-
-    & h4 {
-        max-width: 730px;
-        width: 100%;
-        color: $color-mid;
-        font-size: 1.5rem;
-        line-height: 2rem;
-        font-weight: 300;
-        padding: 3% 0;
-    }
-}
-
-.home__about-traits {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1140px;
-    width: 100%;
-
-    & div {
-        max-width: 340px;
-    }
-    & i {
-        font-size: 2rem;
-        padding: 2%;
-    }
-    & h3 {
-        font-family: $font-accent;
-        font-size: 2rem;
-    }
-    & p {
-        color: $color-mid;
-        padding: 1%;
-        font-size: 1rem;
-        line-height: 1.4rem;
-        font-weight: 300;
-    }
-    & button {
-        width: 100px;
-        height: 50px;
-        border: none;
-        border-radius: 9px;
-        background-color: $color-mid;
-        margin: 2%;
-
-        & a {
-            font-family: $font-accent;
-            font-size: 0.7rem;
-            font-weight: 700;
-            color: $color-light;
-            text-decoration: none;
-        }
-    }
-}
-.fa-heart {
-    color: #3e7828;
-}
-.fa-paintbrush {
-    color: #902727;
-}
-.fa-people-group {
-    color: #372884;
 }
 

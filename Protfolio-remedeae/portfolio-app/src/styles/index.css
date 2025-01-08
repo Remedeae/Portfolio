@@ -57,16 +57,95 @@ body, html {
 
 * {
   font-family: "Roboto", serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #999999;
+}
+* h1, * h2, * h3, * h5, * h6 { /* h4 is the big <p> */
+  font-family: "Roboto Slab", serif;
+  color: #000000;
+  font-weight: 700;
 }
 
-/* body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
- */
 nav {
   position: absolute;
+}
+
+.home__about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3%;
+}
+.home__about > h4 {
+  max-width: 730px;
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 300;
+  padding: 3% 0;
+}
+
+.home__about-traits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1140px;
+  width: 100%;
+}
+.home__about-traits div {
+  max-width: 340px;
+}
+.home__about-traits i {
+  font-size: 2rem;
+  padding: 2%;
+}
+.home__about-traits h3 {
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
+  color: #000000;
+  font-weight: 700;
+}
+.home__about-traits p {
+  padding: 1%;
+  line-height: 1.4rem;
+}
+.home__about-traits button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 9px;
+  background-color: #999999;
+  margin: 2%;
+}
+.home__about-traits button a {
+  font-family: "Roboto Slab", serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.fa-heart {
+  color: #3e7828;
+}
+
+.fa-paintbrush {
+  color: #902727;
+}
+
+.fa-people-group {
+  color: #372884;
 }
 
 .home__banner {
@@ -95,14 +174,16 @@ nav {
   background-color: rgba(51, 51, 51, 0.8039215686);
   padding: 2rem;
 }
+.home__banner * {
+  color: #ffffff;
+}
 .home__banner h1 {
+  font-family: "Roboto", serif;
   font-weight: 600;
   font-size: 4rem;
   padding-bottom: 12px;
 }
 .home__banner h3 {
-  font-family: "Roboto Slab", serif;
-  font-weight: 700;
   font-size: 2rem;
 }
 
@@ -115,83 +196,4 @@ nav {
           box-shadow: rgba(0, 0, 0, 0.1137254902) 0 16px 24px 2px;
   margin-top: -8%;
   text-align: center;
-}
-
-.home__about {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 3%;
-}
-.home__about h4 {
-  max-width: 730px;
-  width: 100%;
-  color: #999999;
-  font-size: 1.5rem;
-  line-height: 2rem;
-  font-weight: 300;
-  padding: 3% 0;
-}
-
-.home__about-traits {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  max-width: 1140px;
-  width: 100%;
-}
-.home__about-traits div {
-  max-width: 340px;
-}
-.home__about-traits i {
-  font-size: 2rem;
-  padding: 2%;
-}
-.home__about-traits h3 {
-  font-family: "Roboto Slab", serif;
-  font-size: 2rem;
-}
-.home__about-traits p {
-  color: #999999;
-  padding: 1%;
-  font-size: 1rem;
-  line-height: 1.4rem;
-  font-weight: 300;
-}
-.home__about-traits button {
-  width: 100px;
-  height: 50px;
-  border: none;
-  border-radius: 9px;
-  background-color: #999999;
-  margin: 2%;
-}
-.home__about-traits button a {
-  font-family: "Roboto Slab", serif;
-  font-size: 0.7rem;
-  font-weight: 700;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.fa-heart {
-  color: #3e7828;
-}
-
-.fa-paintbrush {
-  color: #902727;
-}
-
-.fa-people-group {
-  color: #372884;
 }
