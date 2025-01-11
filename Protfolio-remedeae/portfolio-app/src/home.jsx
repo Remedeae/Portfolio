@@ -1,5 +1,5 @@
 import About from './components/home/About.jsx';
-import Skills from './components/home/Skills.jsx'
+import Skills from './components/home/Skills.jsx';
 
 function Home() {
 
@@ -13,7 +13,7 @@ function Home() {
                 </div>
             </div>
             <div className="home__main">
-                <About />
+                <About/>
                 <Skills />
             </div>
         </div>

@@ -1,5 +1,9 @@
-@import 'home-about';
-@import 'home-skills';
+.home {
+
+    & h6 {
+        font-weight: 500;
+    }
+}
 
 .home__banner {
     display: flex;
@@ -34,6 +38,9 @@
 }
 
 .home__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: $color-light;
     margin: auto;
     width: 90vw;
@@ -41,5 +48,13 @@
     box-shadow: #0000001d 0 16px 24px 2px;
     margin-top: -8%;
     text-align: center;
+
+    & > * {
+        max-width: $max-width;
+        width: 100%;
+        padding: 0 3%;
+    }
 }
 
+@import 'home-about';
+@import 'home-skills';
