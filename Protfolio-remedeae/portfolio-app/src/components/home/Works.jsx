@@ -17,6 +17,7 @@ function Works() {
             <div className="works__bhromaon">
                 <img src={bhromaonEx} alt="Bhromaon" />
                 <div>
+                    <h3>Bhromaon Challenge</h3>
                     <p>The Bhoromaon project was a challenge presented to me as a Tech for Women student. We where assigned a figma design
                         and instructed to recrate it as a resposive design in 12 hours from first to last commit.
                     </p>
