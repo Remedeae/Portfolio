@@ -1,0 +1,62 @@
+.bhromaon {
+    & .tourist {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: $b-body-width;
+        width: 100%;
+        min-height: 731px;
+        background-image: url(../assets/bhromaon/tourist_background.png);
+
+
+        &>div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1110px;
+            width: 100%;
+            min-height: 404px;
+        }
+
+        &__text {
+            display: flex;
+            max-width: 1110px;
+            width: 100%;
+            min-height: 287px;
+            background-color: $b-color-grey;
+            margin: 0 2% 0 2%;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0 2% 0 6%;
+
+            }
+
+            h4 {
+                align-self: flex-start;
+            }
+
+            i {
+                color: $b-color-main;
+                font-size: 40px;
+            }
+
+        }
+    }
+
+    @media screen and (max-width: b-breakpointA) {
+        .tourist {
+            h3 {
+                padding: 30px;
+            }
+
+            &__text {
+                flex-direction: column;
+            }
+        }
+    }
+}

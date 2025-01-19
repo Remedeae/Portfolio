@@ -1,5 +1,6 @@
-import About from './components/home/About.jsx';
-import Skills from './components/home/Skills.jsx';
+import About from '../components/home/About.jsx';
+import Skills from '../components/home/Skills.jsx';
+import Works from '../components/home/Works.jsx';
 
 function Home() {
 
@@ -15,6 +16,8 @@ function Home() {
             <div className="home__main">
                 <About/>
                 <Skills />
+                <Works/>
+
             </div>
         </div>
     )

@@ -1,0 +1,17 @@
+@import 'bhromaon-spain1';
+
+.bhromaon {
+    & .spain2 {
+        background-image: url(../assets/bhromaon/spain2_background.png);
+    }
+
+    & .spain-info_2 {
+        align-self: flex-end;
+    }
+
+    @media screen and (max-width: $b-breakpointA) {
+        .spain-info_2 {
+            align-self: center;
+        }
+    }
+}

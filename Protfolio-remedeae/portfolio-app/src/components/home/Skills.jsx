@@ -1,4 +1,4 @@
-import SkillIll from '../../assets/skill-illustration.jpg'
+import SkillIll from '../../assets/skill-illustration_s.jpg'
 
 function Skills() {
 
@@ -6,23 +6,41 @@ function Skills() {
         <div className="home__skills">
             <div>
                 <div className='img-container'>
+                    <div className='img___color-banner_container'>
+                        <div className='color-banner__top-container'>
+                            <div className='color-banner__top-a'></div>
+                            <div className='color-banner__top-b'></div>
+                            <div className='color-banner__top-c'></div>
+                        </div>
+                        <div className='color-banner__bottom-container'>
+                            <div className='color-banner__bottom-a'></div>
+                            <div className='color-banner__bottom-b'></div>
+                            <div className='color-banner__bottom-c'></div>
+                        </div>
+                    </div>
                     <img src={SkillIll} alt="" />
                 </div>
                 <div className="skills__list">
                     <h2 className="titel">Skills</h2>
-                    <div>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>React</li>
-                        </ul>
-                        <ul>
-                            <li>Illustration</li>
-                            <li>Costume construction</li>
-                            <li>Propmaking</li>
-                            <li>Sewing & embriodery</li>
-                        </ul>
+                    <div className='skills__list-container'>
+                        <div>
+                            <h5>Front End</h5>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h5>Art and craft</h5>
+                            <ul>
+                                <li>Illustration</li>
+                                <li>Costume construction</li>
+                                <li>Propmaking</li>
+                                <li>Sewing & embriodery</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -36,7 +54,7 @@ function Skills() {
                                 <li>
                                     <h5>Tech for Women</h5>
                                     <h6>Sundsgårdens Folkhögskola, one semester</h6>
-                                    <p>Beginners coarse in front end development. HTML, CSS and Javascript</p>
+                                    <p>Beginners course in front end development. HTML, CSS and Javascript</p>
                                 </li>
                                 <li>
                                     <h5>Apothecary</h5>

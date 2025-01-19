@@ -1,0 +1,50 @@
+.bhromaon {
+    & footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: $b-body-width;
+        width: 100%;
+        min-height: 271px;
+        background-color: $b-color-dark;
+
+        >div {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            max-width: 196px;
+            width: 100%;
+            min-height: 165px;
+        }
+    }
+
+    & .footer__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 196px;
+        height: 96px;
+
+        p {
+            letter-spacing: 1.6px;
+        }
+
+        >div {
+            display: flex;
+            justify-content: space-around;
+            width: inherit;
+        }
+
+        .fa-linkedin-in {
+            color: $b-color-main;
+        }
+    }
+
+    @media screen and (max-width:$b-breakpointC) {
+        footer {
+            height: 150px;
+        }
+    }
+}

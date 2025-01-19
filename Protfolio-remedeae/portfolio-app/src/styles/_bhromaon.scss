@@ -1,0 +1,68 @@
+@import 'bhromaon-variables';
+
+.bhromaon {
+    display: flex;
+    flex-direction: column;
+    max-width: $b-body-width;
+    width: 100%;
+    height: auto;
+
+    & * {
+        color: #ffffff;
+        font-size: 16px;
+        font-family: $b-font-main;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0px;
+    }
+    & > * {
+        margin-top: -1px;
+    }
+    & h1, h2, h5 {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    & h2 {
+        font-size: 24px;
+        letter-spacing: 2.4px;
+    }
+    & h3 {
+        font-size: 36px;
+        font-family: $b-font-detail;
+    }
+    & h5 {
+        font-size: 24px;
+        letter-spacing: 3.6px;
+    }
+    & a {
+        text-decoration: none;
+
+        &:hover {
+            color: $b-color-hover-light;
+        }
+    }
+    & button {
+        max-width: 228px;
+        width: 100%;
+        min-height: 63px;
+        background: linear-gradient(45deg, $b-color-main-shade 38%, $b-color-main 20%);
+        border: none;
+        font-family: $b-font-detail;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+
+        &:hover {
+            background: linear-gradient(45deg, $b-color-hover-shade 38%, $b-color-hover 20%);   
+        }
+    }
+}
+
+
+@import 'bhromaon-header';
+@import 'bhromaon-nav';
+@import 'bhromaon-booking-steps';
+@import 'bhromaon-explore';
+@import 'bhromaon-spain2';
+@import 'bhromaon-spain1';
+@import 'bhromaon-tourist';
+@import 'bhromaon-footer';
