@@ -1,6 +1,8 @@
 import explore1 from '../assets/bhromaon/explore_image1.png';
 import explore2 from '../assets/bhromaon/explore_image2.png';
 import tourist from '../assets/bhromaon/tourist_image.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons/faMagnifyingGlass';
 
 function Bhromaon() {
     return (
@@ -13,7 +15,9 @@ function Bhromaon() {
                         <input type="text" placeholder="Search Your Travel Destination" required />
                         <button submit>
                             <p>Search</p>
-                            <i className="fa-solid fa-magnifying-glass"></i>
+                            <div>
+                                <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" />
+                            </div>
                         </button>
                     </form>
                     <div>
@@ -22,7 +26,7 @@ function Bhromaon() {
                     </div>
                 </div>
             </header>
-            <nav>
+            <section className='nav'>
                 <h2>Bhromaon</h2>
                 <ul>
                     <li className="nav-icon" onclick="mobileMenu()">
@@ -43,7 +47,7 @@ function Bhromaon() {
                         <a href="#" id="contact">contact us</a>
                     </li>
                 </ul>
-            </nav>
+            </section>
             <section className="explore">
                 <div>
                     <div className="explore__text">

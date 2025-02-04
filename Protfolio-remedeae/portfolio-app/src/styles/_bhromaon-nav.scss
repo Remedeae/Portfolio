@@ -1,5 +1,5 @@
 .bhromaon {
-    & nav {
+    & .nav {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -34,7 +34,7 @@
     }
 
     @media screen and (max-width: $b-breakpointA) {
-        nav {
+        .nav {
             padding: 0 20px;
         }
 

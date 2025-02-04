@@ -646,7 +646,7 @@ nav {
   }
 }
 
-.bhromaon nav {
+.bhromaon .nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -685,7 +685,7 @@ nav {
   text-transform: uppercase;
 }
 @media screen and (max-width: 800px) {
-  .bhromaon nav {
+  .bhromaon .nav {
     padding: 0 20px;
   }
   .bhromaon ul {
