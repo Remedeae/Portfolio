@@ -11,7 +11,7 @@
         background-image: url(../assets/bhromaon/Arches.png);
         background-repeat: no-repeat;
 
-        >div {
+        & > div {
             display: flex;
             justify-content: space-between;
             max-width: 1046px;

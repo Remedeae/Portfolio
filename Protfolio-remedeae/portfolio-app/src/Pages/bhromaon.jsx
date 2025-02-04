@@ -1,6 +1,6 @@
 import explore1 from '../assets/bhromaon/explore_image1.png';
 import explore2 from '../assets/bhromaon/explore_image2.png';
-import tourist from '../assets/bhromaon/tourist_image.png'
+import tourist from '../assets/bhromaon/tourist_image.png';
 
 function Bhromaon() {
     return (
@@ -138,7 +138,7 @@ function Bhromaon() {
                                 <i className="fa-brands fa-facebook-f"></i>
                             </a>
                             <a href="#">
-                                <i className="fa-brands fa-twitter">            </i>
+                                <i className="fa-brands fa-twitter"></i>
                             </a>
                             <a href="#">
                                 <i className="fa-brands fa-linkedin-in"></i>
